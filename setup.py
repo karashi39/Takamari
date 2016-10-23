@@ -12,5 +12,7 @@ setup(
     name='Takamari',
     version='0.1',
     packages=find_packages(),
-    test_suite='test_hello.suite'
+    test_suite='test_hello.suite',
+    py_modules=['takamari'],
+    package_dir={'': './src'},
 )
