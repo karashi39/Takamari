@@ -36,9 +36,13 @@ def main(argv):
     with open(input_path, 'r') as fi, open(output_path, 'w') as fo:
         for i in range(0, header_lines):
             fo.write(fi.readline())
+        j = 0
         for i in range(0, len(chosen_list)):
             if chosen_list[i]:
                 fo.write(fi.readline())
+                j += 1
+                if j == max_data_lines:
+                    exit()
             else:
                 fi.readline()
 
