@@ -1,6 +1,7 @@
 Takamari.egg-info/
 src/*.pyc
 test/*.pyc
+*.pyc
 dist/*
 build/
 .python-version
