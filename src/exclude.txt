@@ -1,0 +1,72 @@
+flake8 --exclude=node_modules,build
+exclude = .git,tests,config,opencv
+exclude = node_modules,venv,.git,docs,Tools
+exclude =
+exclude = node_modules,venv,.git,docs,Tools
+exclude = node_modules,venv,.git,docs,Tools
+exclude = .git,.venv,.tox,*/migrations/*
+exclude: .git,__pycache__,*.pyc,venv,distribution,memsql_loader/vendor
+exclude = echoprint_server/__init__.py,echoprintenv/*,build/*srecinto/carecenter-api-data-load
+exclude = .c9/*, .git/*
+exclude = 
+exclude = node_modules,venv,.git,docs,Tools
+exclude = .*,__pycache__,resources.py
+exclude = venv/*mikeman61/HowDoIEven
+exclude = node_modules,venv,.git,docs,Tools
+exclude = migrations
+exclude = ./docs/
+exclude = .git,__pycache__,templates
+exclude=*/migrations/*,env/*
+exclude=*.egg/*
+exclude =
+exclude = tt_env/* 
+exclude = venv/*sysint64/emacs-config
+exclude = test/resources
+exclude = .venv/,.tox/,dist/,build/,doc/,.eggs/
+exclude = setup.py,build/*
+exclude = docs, migrations, node_modules, bower_components, venv, */__init__.py
+exclude = node_modules,venv,.git,docs,Tools
+exclude = migrations
+exclude = manage.py
+exclude = .*,__pycache__,resources.py
+exclude = docs,migrations,build,setup.py,runtests.pyitismadness/gazelleapi
+exclude = build
+If you wish to exclude a subdirectory of an included one, you can add it to the ``exclude``
+    exclude = lintargs.get('exclude')
+    if exclude:
+        cmdargs += ['--exclude', ','.join(lintargs['exclude'])]
+    'exclude': [],
+exclude = test.py
+exclude =
+exclude = build/, migrations/, node_modules/, settings.py
+exclude = venv/*8Banana/PythonWars
+exclude = envdlefebvre68/dalefebvtest
+exclude = venv/*markkurantanen/markkubotti
+exclude = venv/*pbrent84/mouse_hats
+exclude = node_modules,venv,.git,docs,Tools
+exclude = venv/*cinchOS/traverse
+exclude = __init__.py,disti/*,build/*,
+If you wish to exclude a subdirectory of an included one, you can add it to the ``exclude``
+    exclude = lintargs.get('exclude')
+    if exclude:
+        cmdargs += ['--exclude', ','.join(lintargs['exclude'])]
+    'exclude': [],
+exclude=*.egg/*
+exclude =
+exclude = node_modules,venv,.git,docs,Tools
+exclude = venv/*arrowfoot/arrowfoot
+exclude = venv/*https://github.com/tosp/tospHome
+exclude = venv/*makyo/polycul.es
+exclude = bin,lib
+exclude =
+exclude = log/*,lib/site-packages/*
+exclude = */docs/*,*/.tox/*,*/.venv/*
+exclude=*.egg/*
+exclude = __init__.py,disti/*,build/*,
+If you wish to exclude a subdirectory of an included one, you can add it to the ``exclude``
+    exclude = lintargs.get('exclude')
+    if exclude:
+        cmdargs += ['--exclude', ','.join(lintargs['exclude'])]
+    'exclude': [],
+exclude = node_modules,venv,.git,docs,Tools
+exclude = migrations
